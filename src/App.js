@@ -1,0 +1,54 @@
+import React from "react";
+import './App.css'
+
+import AboutUs from "./pages/aboutUs/AboutUs";
+import HowItWorks from "./pages/howItWorks/HowItWorks";
+
+
+import Benifits1 from "./pages/Benifits/Benifits1";
+import Pricing from "./pages/pricing/Pricing";
+import Reviews from "./pages/reviews/Reviews";
+import FAQ from "./pages/FAQ/FAQ";
+import Home from "./pages/home/Home";
+import Benifits2 from "./pages/Benifits/Benifits2";
+import Partners from "./pages/partners/Partners";
+import Footer from "./pages/footer/Footer";
+import Certified from "./pages/certified/Certified";
+import ContactUs from "./pages/contactUs/ContactUs";
+
+const App = () => {
+
+  // functoin to scroll 
+
+  const scrollToSection = (sectionId) => {
+    const section = document.getElementById(sectionId);
+    section.scrollIntoView({ behavior: 'smooth' });
+
+  };
+
+
+
+  return (
+    <div className="">
+      <div className="app_main">
+        {/* <Navbar scrollToSection={scrollToSection} /> */}
+        <Home />
+        <AboutUs />
+        <HowItWorks />
+        <Benifits1 />
+        <Benifits2 />
+        <Pricing />
+        <Partners />
+        <Reviews />
+
+        {/* <Certified /> */}
+        <ContactUs />
+        <FAQ />
+        <Footer />
+        {/* <button className={classes.app_btn}>HOME</button> */}
+      </div>
+    </div>
+  );
+};
+
+export default App;

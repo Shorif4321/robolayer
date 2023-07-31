@@ -1,0 +1,922 @@
+.HItW_main{
+     width: 100%;
+     
+     
+     /* background-color: red; */
+     
+}
+
+.HItW_main_div{
+   width: 100%;
+   padding:8rem 7%;
+   padding-bottom: 4.7rem;
+   height: auto;
+   background: rgba(160, 180, 241, 0.6);
+}
+
+.HItW_main_div_img1{
+    width:35px;
+   height:9px;
+   display: block;
+   margin-right:auto;
+   margin-left:auto;
+}
+
+
+
+.HItW_main_div_img2{
+    width:35px;
+   height:9px;
+   display: block;
+   margin-right:auto;
+   margin-left:auto;
+}
+
+
+.HItW_main_div_img3{
+    width:35px;
+   height:9px;
+   display: block;
+   margin-right:auto;
+   margin-left:auto;
+}
+
+.HItW_main_div_detail{
+    
+    width:100%;
+    height:82vh;
+    height:70vh;
+    min-height:100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 30px 0;
+    /* border:2px solid black; */
+    gap:12%;
+    
+}
+
+
+.HItW_main_div_detail .detail_sec1{
+    flex: 1.2;
+    min-height: 100%;
+    
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+   
+    
+    
+}
+
+
+.detail_sec1_sub_sec1{
+    font-size: 1rem;
+    margin-bottom:1em;
+    color: #4169E3;
+}
+
+.detail_sec1_sub_sec2{
+    font-size: 2.75rem;
+    font-weight: 700;
+    color: #363636;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+.detail_sec1_sub_sec2 span{
+    color: #E40F75;
+}
+
+.detail_sec1_sub_sec3{
+    width:100%;
+    padding-left: 2.5%;
+    display: flex;
+    
+    
+    
+}
+
+.detail_sec1_sub_sec3 .detail_sec1_sub_sec3_L div{
+    z-index: 1;
+   min-width:1.7px;
+   
+   min-height: 90%;
+   background-color: #4169E2;
+
+   position: relative;
+   left:12.5px;
+   top:15px;
+
+}
+
+
+.detail_sec1_sub_sec3 .detail_sec1_sub_sec3_R{
+    z-index: 50;
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+
+
+}
+
+.detail_sec1_sub_sec3_div{
+    width:100%;
+    gap:3%;
+    display: flex;
+    height: 100px;
+    
+}
+
+.detail_sec1_sub_sec3_div section{
+    
+}
+
+.detail_sec1_sub_sec3_div section img{
+    width:25px;
+    height:25px;
+    margin-top:10px;
+ 
+}
+
+
+.detail_sec1_sub_sec3_div section h3{
+     font-size: 1.37rem;
+     color:#363636;
+     font-weight: 550;
+     margin-top: 0.5em;
+     margin-bottom: 0.5em;
+}
+
+.detail_sec1_sub_sec3_div section p{
+   color: #323232;
+   font-size: 1rem;
+   line-height: 1.5em;
+}
+
+
+
+
+.HItW_main_div_detail .detail_sec2{
+    flex: 1;
+    height: 100%;
+    display: flex;
+
+    display: flex;
+        align-items: center;
+        justify-content: center;
+    align-items: center;
+    /* border:2px solid red; */
+ 
+}   
+
+
+.HItW_main_div_detail .detail_sec2 .detail_sec2_img{
+    width:100%;
+    height:80%;
+    width:605px;
+    height:473px;
+    scale:0.9; 
+   
+    /* margin-top: 2%; */
+    
+}
+
+
+
+@media only screen and (min-width: 1780px) {
+
+    .HItW_main{
+        height: auto !important;
+    }
+
+   
+    .HItW_main_div_detail{
+        gap: 2%;
+    }
+    .detail_sec1{
+        width: auto;
+        
+    }
+    .detail_sec2{
+        width: auto;
+
+    }
+    
+    .detail_sec1_sub_sec3 .detail_sec1_sub_sec3_L div{
+        min-height: 90%;
+    }
+    .detail_sec2_img{
+        scale: 1.2 !important;
+        
+    }
+
+    
+    .HItW_main_div_img3{
+        display: none;
+    }
+
+    .detail_sec1_sub_sec3 .detail_sec1_sub_sec3_R{
+        gap:1rem;
+    }
+
+    .detail_sec1_sub_sec1{
+        font-size: 1.5rem;
+    }
+    .detail_sec1_sub_sec2{
+        font-size: 3rem;
+    }
+
+    .detail_sec1_sub_sec3_div section h3{
+         font-size: 1.5rem;
+    }
+
+    .detail_sec1_sub_sec3_div section p{
+        font-size: 1.3rem;
+    }
+   
+}
+
+
+@media only screen and (min-width: 1600px) {
+
+   
+    .HItW_main_div_detail{
+        gap: 2%;
+    }
+    .detail_sec1{
+        width: auto;
+        
+    }
+    .detail_sec2{
+        width: auto;
+
+    }
+    
+    .detail_sec1_sub_sec3 .detail_sec1_sub_sec3_L div{
+        min-height: 90%;
+    }
+    .detail_sec2_img{
+        scale: 1 ;
+    }
+
+    
+    .HItW_main_div_img3{
+        display: none;
+    }
+
+    .detail_sec1_sub_sec3 .detail_sec1_sub_sec3_R{
+        gap:1rem;
+    }
+
+    .detail_sec1_sub_sec1{
+        font-size: 1.5rem;
+    }
+    .detail_sec1_sub_sec2{
+        font-size: 3rem;
+    }
+
+    .detail_sec1_sub_sec3_div section h3{
+         font-size: 1.5rem;
+    }
+
+    .detail_sec1_sub_sec3_div section p{
+        font-size: 1.3rem;
+    }
+    
+}
+
+/* 
+@media only screen and (min-width: 1575px) {
+
+
+    .HItW_main_div{
+      
+    }
+
+
+    .HItW_main_div_detail{
+        gap:5%;
+    }
+
+    .HItW_main_div_detail .detail_sec2 .detail_sec2_img{
+        scale: 0.8;
+    }
+} */
+
+@media only screen and (max-width: 1570px) {
+
+
+    .HItW_main_div{
+        /* min-height: 100vh; */
+    }
+
+
+    .HItW_main_div_img3{
+        display: none;
+    }
+    .HItW_main_div_detail{
+        gap:5%;
+    }
+
+    .HItW_main_div_detail .detail_sec2 .detail_sec2_img{
+        scale: 1;
+    }
+}
+
+@media only screen and (max-width: 1470px) {
+
+
+    .HItW_main_div{
+        /* min-height: 100vh; */
+    }
+
+
+    .HItW_main_div_img3{
+        display: none;
+    }
+    .HItW_main_div_detail{
+        gap:0%;
+    }
+
+    .HItW_main_div_detail .detail_sec2 .detail_sec2_img{
+        scale: 0.9;
+       
+    }
+}
+
+@media only screen and (max-width: 1385px) {
+
+
+    .HItW_main_div{
+       height:auto;
+    }
+
+    .detail_sec1{
+        
+        height: auto;
+        
+    }
+    .detail_sec2{
+        
+        height: auto;
+        
+    }
+
+    .detail_sec1_sub_sec3_div{
+        height: 40%;
+        
+    }
+
+
+    .HItW_main_div_img3{
+        display: none;
+    }
+    .HItW_main_div_detail{
+        gap:2%;
+    }
+
+    .HItW_main_div_detail .detail_sec2 .detail_sec2_img{
+        scale: 0.85;
+    }
+}
+
+@media only screen and (max-width: 1360px) {
+
+
+    .HItW_main_div{
+       height:auto;
+    }
+
+    .detail_sec1{
+        
+        height: auto;
+        width:70%;
+        
+    }
+    .detail_sec2{
+        width:25%;
+        height: auto;
+        
+        
+    }
+
+    .detail_sec1_sub_sec3_div{
+        height: 40%;
+        
+    }
+    .detail_sec1_sub_sec3 .detail_sec1_sub_sec3_L div{
+         min-height: 90%;
+    }
+
+
+    .HItW_main_div_img3{
+        display: none;
+    }
+    .HItW_main_div_detail{
+        gap:2%;
+    }
+
+    .HItW_main_div_detail .detail_sec2 .detail_sec2_img{
+        scale: 0.7;
+        margin:0 auto;
+        
+    }
+}
+
+
+@media only screen and (min-width: 1000px) {
+    .HItW_main_div_img3{
+        display: none;
+    }
+    .HItW_main_div_detail{
+
+    }
+}
+
+@media only screen and (max-width: 1160px) {
+    .HItW_main_div{
+       height:auto;
+    }
+
+    .detail_sec1{
+        
+        height: auto;
+        width:70%;
+        
+    }
+    .detail_sec2{
+        width:25%;
+        height: auto;
+        
+        
+    }
+
+    .detail_sec1_sub_sec3_div{
+        height: 40%;
+        
+    }
+    .detail_sec1_sub_sec3 .detail_sec1_sub_sec3_L div{
+         
+    }
+
+
+    .HItW_main_div_img3{
+        display: none;
+    }
+    .HItW_main_div_detail{
+        gap:2%;
+    }
+
+    .HItW_main_div_detail .detail_sec2 .detail_sec2_img{
+        scale: 0.6;
+        margin:0 auto;
+      
+    }
+}
+
+
+
+
+@media only screen and (max-width: 1000px) {
+
+    .HItW_main_div{
+        min-height: 175vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        
+        
+    }
+
+    .HItW_main_div_detail{
+        flex-direction: column;
+        height: 100%;
+        /* min-height: 100%; */
+        /* gap:0%; */
+        
+        
+        
+    }
+
+    .HItW_main_div_detail .detail_sec1{
+        flex: 1;
+        width:100%;
+        /* height:40%; */
+    }
+    .HItW_main_div_detail .detail_sec2{
+        flex: 1;
+        width:100%;
+        height: auto;
+        margin:0px auto;
+        
+    }
+
+    .detail_sec1_sub_sec1{
+        font-size: 1.1rem;
+    }
+
+    .detail_sec1_sub_sec2 {
+          font-size: 2.7rem;
+    }
+
+    .detail_sec1_sub_sec3{
+         padding-left: 0;
+    }
+    .detail_sec1_sub_sec3_div section h3{
+        font-size: 1.2rem;
+    }
+
+    .detail_sec1_sub_sec3_div section p{
+        font-size: 1rem;
+        text-align: justify;
+
+    }
+
+
+    /* .detail_sec2_img{
+       
+        scale: 1;
+        border:2px solid red;
+    }
+     */
+    
+    .HItW_main_div_detail .detail_sec2 .detail_sec2_img{
+        scale: 0.75;
+        
+    }
+
+    .HItW_main_div_img2{
+        /* display: none; */
+    }
+}
+
+
+
+@media only screen and (max-width: 935px) {
+
+    .HItW_main_div{
+        min-height: 165vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .HItW_main_div_detail{
+        flex-direction: column;
+    }
+
+    .HItW_main_div_detail .detail_sec1{
+        flex: 1;
+        
+    }
+    .HItW_main_div_detail .detail_sec2{
+        flex: 1;
+        width:90%;
+        height: auto;
+        margin:0px auto;
+    }
+
+    .detail_sec1_sub_sec1{
+        font-size: 1.2rem;
+    }
+
+    .detail_sec1_sub_sec2 {
+          font-size: 3rem;
+    }
+
+    .detail_sec1_sub_sec3{
+         padding-left: 0;
+    }
+    .detail_sec1_sub_sec3_div section h3{
+        font-size: 1.5rem;
+    }
+
+    .detail_sec1_sub_sec3_div section p{
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+
+    .detail_sec2_img{
+        width:100%;
+    }
+
+    
+}
+
+
+
+@media only screen and (max-width: 935px) {
+
+    .HItW_main_div{
+        min-height: 165vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .HItW_main_div_detail{
+        flex-direction: column;
+    }
+
+    .HItW_main_div_detail .detail_sec1{
+        flex: 1;
+        
+    }
+    .HItW_main_div_detail .detail_sec2{
+        flex: 1;
+        width:90%;
+        height: auto;
+        margin:0px auto;
+    }
+
+    .detail_sec1_sub_sec1{
+        font-size: 1.2rem;
+    }
+
+    .detail_sec1_sub_sec2 {
+          font-size: 3rem;
+    }
+
+    .detail_sec1_sub_sec3{
+         padding-left: 0;
+    }
+    .detail_sec1_sub_sec3_div section h3{
+        font-size: 1.3rem;
+    }
+
+    .detail_sec1_sub_sec3_div section p{
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .HItW_main_div_detail .detail_sec2{
+        margin-top: 2rem;
+    }
+
+
+    .HItW_main_div_detail .detail_sec2 .detail_sec2_img{
+        
+    }
+
+
+    
+}
+
+
+
+
+
+
+@media only screen and (max-width: 765px) {
+
+    .HItW_main_div{
+        min-height: 165vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .HItW_main_div_detail{
+        flex-direction: column;
+    }
+
+    .HItW_main_div_detail .detail_sec1{
+        flex: 1;
+        
+    }
+    .HItW_main_div_detail .detail_sec2{
+        flex: 1;
+        width:90%;
+        height: auto;
+        margin:0px auto;
+    }
+
+    .detail_sec1_sub_sec1{
+        font-size: 1.2rem;
+    }
+
+    .detail_sec1_sub_sec2 {
+          font-size: 3rem;
+    }
+
+    .detail_sec1_sub_sec3{
+         padding-left: 0;
+    }
+    .detail_sec1_sub_sec3_div section h3{
+        font-size: 1.3rem;
+    }
+
+    .detail_sec1_sub_sec3_div section p{
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .HItW_main_div_detail .detail_sec2{
+        margin-top: 2rem;
+    }
+
+
+    .HItW_main_div_detail .detail_sec2 .detail_sec2_img{
+        
+    }
+
+
+    .HItW_main_div_img3   {
+           
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 533px) {
+
+    .HItW_main_div{
+        min-height: 165vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .HItW_main_div_detail{
+        flex-direction: column;
+    }
+
+    .HItW_main_div_detail .detail_sec1{
+        flex: 1;
+        
+    }
+    .HItW_main_div_detail .detail_sec2{
+        flex: 1;
+        width:90%;
+        height: auto;
+        margin:0px auto;
+    }
+
+    .detail_sec1_sub_sec1{
+        font-size: 1.2rem;
+    }
+
+    .detail_sec1_sub_sec2 {
+          font-size: 2.3rem;
+    }
+
+    .detail_sec1_sub_sec3{
+         padding-left: 0;
+    }
+    .detail_sec1_sub_sec3_div section h3{
+        font-size: 1.2rem;
+    }
+
+    .detail_sec1_sub_sec3_div section p{
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .HItW_main_div_detail .detail_sec2{
+        margin-top: 2rem;
+    }
+
+
+    .HItW_main_div_detail .detail_sec2 .detail_sec2_img{
+        scale: 0.6;
+    }
+
+
+    .HItW_main_div_img3   {
+           
+    }
+}
+
+
+
+
+
+@media only screen and (max-width: 440px) {
+
+    .HItW_main_div{
+        min-height: 165vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .HItW_main_div_detail{
+        flex-direction: column;
+    }
+
+    .HItW_main_div_detail .detail_sec1{
+        flex: 1;
+        
+    }
+    .HItW_main_div_detail .detail_sec2{
+        flex: 1;
+        width:90%;
+        height: auto;
+        margin:0px auto;
+    }
+
+    .detail_sec1_sub_sec1{
+        font-size: 1.2rem;
+    }
+
+    .detail_sec1_sub_sec2 {
+          font-size: 2.3rem;
+    }
+
+    .detail_sec1_sub_sec3{
+         padding-left: 0;
+    }
+    .detail_sec1_sub_sec3_div section h3{
+        font-size: 1.2rem;
+    }
+
+    .detail_sec1_sub_sec3_div section p{
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .HItW_main_div_detail .detail_sec2{
+        margin-top: 2rem;
+    }
+
+
+    .HItW_main_div_detail .detail_sec2 .detail_sec2_img{
+        scale: 0.5;
+    }
+
+
+    .HItW_main_div_img3   {
+           
+    }
+}
+
+
+
+
+@media only screen and (max-width: 336px) {
+
+    .HItW_main_div{
+        min-height: 165vh;
+        display: flex;
+        flex-direction: column;
+        
+    }
+
+    .HItW_main_div_detail{
+        flex-direction: column;
+    }
+
+    .HItW_main_div_detail .detail_sec1{
+        flex: 1;
+        
+    }
+    .HItW_main_div_detail .detail_sec2{
+        flex: 1;
+        width:90%;
+        height: auto;
+        margin:0px auto;
+    }
+
+    .detail_sec1_sub_sec1{
+        font-size: 1.2rem;
+    }
+
+    .detail_sec1_sub_sec2 {
+          font-size: 2rem;
+    }
+
+    .detail_sec1_sub_sec3{
+         padding-left: 0;
+    }
+    .detail_sec1_sub_sec3_div section h3{
+        font-size: 1.2rem;
+    }
+
+    .detail_sec1_sub_sec3_div section p{
+        font-size: 1.1rem;
+        text-align: justify;
+    }
+
+    .HItW_main_div_detail .detail_sec2{
+        margin-top: 2rem;
+    }
+
+
+    .HItW_main_div_detail .detail_sec2 .detail_sec2_img{
+        scale: 0.4;
+    }
+
+
+    .HItW_main_div_img3   {
+           
+    }
+}
+
+
+
+
