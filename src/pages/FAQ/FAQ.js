@@ -8,7 +8,7 @@ const FAQ = () => {
       <div className='text-center mx-auto col-11 col-md-7'>
         <h3> FAQ </h3>
         <h1>Answers to your doubts</h1>
-        <p className='mb-0 mb-md-4'>Everything you need to know about robolawyer and our service</p>
+        <p className='mb-md-4'>Everything you need to know about robolawyer and our service</p>
       </div>
 
       <div className='mx-auto col-12 col-md-9'>

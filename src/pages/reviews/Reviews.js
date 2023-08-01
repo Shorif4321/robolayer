@@ -13,8 +13,11 @@ const Reviews = () => {
         </section>
       </div>
 
-      <section className="sec2">
-        <Feedback className="big" size={2} />
+
+
+
+      <section className="d-flex justify-content-center">
+        <Feedback className="big p-2" size={2} />
         <Feedback className="smal" size={1} />
       </section>
     </div>

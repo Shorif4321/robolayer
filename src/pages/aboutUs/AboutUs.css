@@ -1,0 +1,41 @@
+.about h6 {
+    color: #4169E3;
+}
+
+.about span {
+    color: #E40F75;
+
+}
+
+.about p {
+    color: #363636;
+    line-height: 35px;
+    font-size: 17px;
+}
+
+@media screen and (min-width:992px) {
+    .main {
+
+        padding: 0 10px;
+        margin-top: 100px;
+    }
+}
+
+
+@media screen and (max-width:991px) {
+
+    .about h6 {
+        text-align: center;
+    }
+
+    .about h1 {
+        text-align: center;
+    }
+
+    .main {
+        flex-direction: column-reverse;
+        text-align: justify;
+        padding: 0 10px;
+        margin-top: 100px;
+    }
+}

@@ -74,36 +74,7 @@ const Lawyer = (props) => {
         onSwiper={(swiper) => console.log(swiper)}
         onSlideChange={() => console.log("slide change")}
       >
-        {/* {lawyerDetails.map((lawyer) => {
-          return (
-            <div className={classes.test_div}>
-              <SwiperSlide>
-                <div className={classes.swiperSlide}>
-                  <img
-                    src={lawyer.img}
-                    className={classes.swipe_img}
-                    alt="lawyer"
-                  />
-                  <section className={classes.swiperSlide_sec}>
-                    <h5>{lawyer.name}</h5>
-                    <section>
-                      {" "}
-                     
-                      {lawyer.flag}
-                      <span>{lawyer.country}</span>
-                    </section>
-                  </section>
-                </div>
-              </SwiperSlide>
 
-            
-              <SwiperSlide> slide 2 </SwiperSlide>
-              <SwiperSlide> slide 3 </SwiperSlide>
-              <SwiperSlide> slide 4 </SwiperSlide>
-              <SwiperSlide> slide 5 </SwiperSlide>
-            </div>
-          );
-        })} */}
         <SwiperSlide>
           <div className={classes.swiperSlide}>
             <img

@@ -32,7 +32,7 @@ const Feedback = (props) => {
               <span>"</span>{" "}
             </section>
             <section className={classes.sec_2}>
-              <p>
+              <p className="">
                 An exquisite blend of fashion-forward designs and impeccable
                 craftsmanship, our fashion website is a testament to the pursuit
                 of sartorial excellence.{" "}
